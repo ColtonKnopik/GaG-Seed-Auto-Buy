@@ -5,8 +5,8 @@ import subprocess
 TOTAL_SEEDS = 24    #Change this to the total number of seeds you want to scan
 
 #AutoHotkey script path
-ahk_path = "C:\\Program Files\\AutoHotkey\\v1.1.37.02\\AutoHotkeyU64.exe"
-script_path = "C:\\Users\\colto_\\Documents\\Personal Projects\\Roblox\\click.ahk"
+ahk_path = "YOUR PATH TO AHK SOURCE"
+script_path = "YOUR SCRIPT PATH"
 
 #Colors:
 green_color = (0, 255, 0)
