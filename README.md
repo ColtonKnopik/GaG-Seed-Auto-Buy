@@ -1,6 +1,6 @@
 # Grow a Garden Auto Buy
 
-script to scan shop menu on the popular Roblox game grow a garden. Listens for shop restock message and triggers a scan of the entire menu, buying seeds of rarity legendary or higher.
+python script to scan shop menu on the popular Roblox game grow a garden. Listens for shop restock message and triggers a scan of the entire menu, buying seeds of rarity legendary or higher.
 
 ## Required Installs
 
