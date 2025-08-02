@@ -1,5 +1,6 @@
 import pyautogui
 import time
+import trick
 
 #Restock popup position and color
 restock_positions = [
@@ -31,9 +32,13 @@ def restock_listener():
     print("Listening for restock...")
     time.sleep(2)
     while True:
+        trick.randomMouseMove()
+        time.sleep(trick.getRandDelay(2,3))
+
+
         for restock_pos in restock_positions:
             if check_restock_pos(restock_pos):
                 print(f"Restock detected at {restock_pos}!")
                 return True
-        time.sleep(1)  # Check every second
+        
 

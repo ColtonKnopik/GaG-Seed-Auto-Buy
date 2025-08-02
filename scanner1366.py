@@ -2,6 +2,7 @@ import pyautogui
 import time
 import subprocess
 import restock
+import trick
 
 TOTAL_SEEDS = 24    #Change this to the total number of seeds you want to scan
 
@@ -71,7 +72,7 @@ def scan_position(x, y, iterations):
                 return True
 
         pyautogui.scroll(-137)
-        time.sleep(0.5)
+        time.sleep(trick.getRandDelay(0.5, 1))
 
     return False
 
@@ -144,7 +145,6 @@ def scan_loop():
 
 
 def main():
-    time.sleep(3)
     while True:
         if(restock.restock_listener()):
             scan_loop()
