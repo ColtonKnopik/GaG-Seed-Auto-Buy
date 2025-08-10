@@ -12,9 +12,8 @@ python script to scan shop menu on the popular Roblox game grow a garden. Listen
 [AutoHotKey](https://www.autohotkey.com/download/) required to send OS level mouse output 
 
 ## Configuration
-Inside of `scannerV3.py` you must change `ahk_path` to the source file you downloaded from AutoHotKey
+Inside of `scannerV3.py` verify that `ahk_path` is pointing the source file you downloaded from AutoHotKey
 
-You also must change `script_path` to the `click.ahk` file in the repo.
 
 
 
