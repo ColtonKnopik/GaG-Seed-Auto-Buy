@@ -4,7 +4,10 @@ python script to scan shop menu on the popular Roblox game grow a garden. Listen
 
 ## Required Installs
 
- [Python 3.12.3](https://www.python.org/downloads/release/python-3123/) (or whatever the latest is) and pip install **pyautogui**
+ [Python 3.12.3](https://www.python.org/downloads/release/python-3123/) (or whatever the latest is)
+ * Open terminal
+ * Enter: `pip install pyautogui`
+ * Enter: `pip install Pillow`
 
 [AutoHotKey](https://www.autohotkey.com/download/) required to send OS level mouse output 
 
